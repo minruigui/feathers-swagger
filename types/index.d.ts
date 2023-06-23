@@ -127,6 +127,7 @@ declare namespace feathersSwagger {
     ui?: FnUiInit;
     idType?: 'string' | 'integer';
     prefix?: string | RegExp;
+    basePath?: string;
     versionPrefix?: RegExp;
     include?: {
       tags?: string[];
