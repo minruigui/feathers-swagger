@@ -120,6 +120,7 @@ type Verb = 'POST' | 'GET' | 'PATCH' | 'PUT' | 'DELETE';
 
 declare namespace feathersSwagger {
   interface SwaggerInitOptions {
+    LINKS: string [];
     specs: SpecsObject;
     openApiVersion?: OpenApiVersion;
     docsPath?: string;
